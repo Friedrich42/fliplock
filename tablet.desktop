@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Tablet Mode Toggle
+Comment=Toggle Tablet Mode
+Exec=bash -c "/opt/fliplock/tablet.sh"
+Icon=/opt/fliplock/tablet.png
+Terminal=false
+Type=Application
+

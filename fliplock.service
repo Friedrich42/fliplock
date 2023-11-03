@@ -1,0 +1,16 @@
+[Unit]
+Description=Fliplock Python Service
+After=network.target
+
+[Service]
+ExecStart=python /opt/fliplock/fliplock.py
+WorkingDirectory=/opt/fliplock
+User=root
+Group=root
+StandardOutput=null
+StandardError=null
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
